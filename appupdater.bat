@@ -6,8 +6,6 @@ echo ONLY WORKS ON THE MOST RECENT VERSIONS OF WINDOWS 10! Update your system to
 echo ============================
 echo I AM NOT RESPONSIBLE FOR ANY DAMAGES CAUSED BY RUNNING THIS SCRIPT. USE AT YOUR RISK!
 echo ============================
-echo Do you want to update?
-CHOICE /C YNC /M "Press Y for Yes, N for No or C for Cancel."
 echo Retreiving list of apps to update:
 winget upgrade
 echo Updating your apps....
