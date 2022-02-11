@@ -5,4 +5,4 @@ How to run it:
 - Download the whole repo here: https://github.com/themoonmeetsthesun/app-updater/archive/refs/heads/master.zip
 - Extract it
 - Go inside that folder
-- Double click on update.sh
+- Double click on update.bat
