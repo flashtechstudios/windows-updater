@@ -1,8 +1,13 @@
-This script uses winget in background to update your apps. Learn more: https://github.com/microsoft/winget-cli
-Also windows defender might pop up because it is new (I guess) so click on "more info" and then "run anyway" to bypass it. Also don't worry it's safe because I have very less code and I am really not the best at scripting or coding 🤣.
+This script uses winget and pswindowsupdate in background to update your apps.
+You will have to change your execution policy to let the script run
 
-To run it:
+To run it (if you have git):
+- If you have git installed run `git clone https://github.com/themoonmeetsthesun/windows-updater.git`
+- Go into the folder and open a powershell (admin) window there and run `./update-windows.ps1`
 
-- run: `curl https://raw.githubusercontent.com/themoonmeetsthesun/app-updater/master/appupdater.bat > appupdater.bat`
-- run: `start "appupdater.bat"`
-- CMD defaults to the user folder so you can find it there. If you started this command in another folder you can find it there if you want to run it next time.
+To run it (if you don't have git):
+- Download the repo from the "Code" area
+- Extract the folder, go into it and open a powershell (admin) window there and run `./update-windows.ps1`
+
+If you don't have pswindowsupdate module installed:
+- run: `Install-Module -Name PSWindowsUpdate`
