@@ -1,5 +1,6 @@
 This script uses winget and pswindowsupdate in background to update your apps.
-You will have to change your execution policy to let the script run
+You will have to change your execution policy to let the script run. For that do:
+- `Set-ExecutionPolicy unrestricted` in powershell (admin)
 
 To run it (if you have git):
 - If you have git installed run `git clone https://github.com/themoonmeetsthesun/windows-updater.git`
