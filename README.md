@@ -1,4 +1,4 @@
-This script uses winget and pswindowsupdate in background to update your apps.
+This script uses winget and pswindowsupdate in background to update your apps and windows.
 You will have to change your execution policy to let the script run. For that do:
 - `Set-ExecutionPolicy unrestricted` in powershell (admin)
 
