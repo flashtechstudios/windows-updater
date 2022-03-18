@@ -1,3 +1,4 @@
+Clear-Host
 write-host "
            _                       _       _            
           (_)                     | |     | |           
@@ -7,16 +8,16 @@ write-host "
    \_/\_/ |_|_| |_|\__,_| .__/ \__,_|\__,_|\__\___|_|   
                         | |                             
                         |_|                             
-"
-write-host "Updating everything...."
-write-host "Upgrading apps..."
-write-host "Listing apps to upgrade"
+" -ForegroundColor Green
+write-host "Updating system..." -ForegroundColor Blue
+write-host "Upgrading apps..." -ForegroundColor Blue
+write-host "Listing apps to upgrade" -ForegroundColor Blue
 winget upgrade
-Write-Host "upgrading..."
+Write-Host "upgrading..." -ForegroundColor Blue
 winget upgrade --all
-write-host "Updating Windows...."
-write-host "Listing updates"
+write-host "Updating Windows...." -ForegroundColor Blue
+write-host "Listing updates..." -ForegroundColor Blue
 get-windowsupdate
-Write-Host "updating...."
+Write-Host "updating...." -ForegroundColor Blue
 install-windowsupdate
-write-host "Done!"
+write-host "Done!" -ForegroundColor Blue
