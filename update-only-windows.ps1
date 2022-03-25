@@ -13,6 +13,6 @@ write-host "Updating system..." -ForegroundColor Blue
 write-host "Updating Windows...." -ForegroundColor Blue
 write-host "Listing updates..." -ForegroundColor Blue
 get-windowsupdate
-Write-Host "updating...." -ForegroundColor Blue
+Write-Host "Updating...." -ForegroundColor Blue
 install-windowsupdate
 write-host "Done!" -ForegroundColor Blue
